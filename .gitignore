@@ -1,0 +1,36 @@
+# Hugo build output
+/public/
+/resources/
+
+# Temporary files
+*.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Hugo server files
+hugo_stats.json
+
+# Node modules (if using npm or yarn for CSS/JS)
+node_modules/
+
+# Cache directories
+.cache/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Environment files
+.env
+.env.local
+.env.*.local

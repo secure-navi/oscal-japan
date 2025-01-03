@@ -1,0 +1,15 @@
+<div class="">
+  <h3>{{ .id }} {{ .title }}</h3>
+
+  {{ if .controls }}
+    {{ range .controls }}
+      {{ partial "control.html" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if .groups }}
+    {{ range .groups }}
+      {{ partial "group.html" . }}
+    {{ end }}
+  {{ end }}
+</div>

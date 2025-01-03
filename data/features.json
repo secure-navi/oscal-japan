@@ -1,0 +1,20 @@
+[
+  {
+    "title": "ブログ",
+    "description": "OSCALに関する情報を発信しています。",
+    "icon": "fa fa-book",
+    "link": "/blogs"
+  },
+  {
+    "title": "カタログモデル",
+    "description": "国内ガイドラインのカタログを公開しています。",
+    "icon": "fa fa-server",
+    "link": "/catalogs"
+  },
+  {
+    "title": "OSCAL公式ページ",
+    "description": "NISTが提供するOSCALの公式ページです。",
+    "icon": "fa fa-link",
+    "link": "https://pages.nist.gov/OSCAL/"
+  }
+]

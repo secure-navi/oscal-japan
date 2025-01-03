@@ -1,0 +1,25 @@
+<div class="px-4 py-2 m-2 shadow border rounded">
+  {{ if (or .parts .props) }}
+    <details>
+      <summary class="hover:opacity-60" style="cursor: pointer;">{{ .id }} {{ .title }}</summary>
+
+      {{ if .props }}
+        {{- range .props -}}
+          {{ partial "props.html" . }}
+        {{- end -}}
+      {{ end }}
+
+      {{ range .parts }}
+        {{ partial "part.html" . }}
+      {{ end }}
+    </details>
+  {{ else }}
+    <span>{{ .id }} {{ .title }}</span>
+  {{ end }}
+
+  {{ if .controls }}
+    {{ range .controls }}
+      {{ partial "control.html" . }}
+    {{ end }}
+  {{ end }}
+</div>

@@ -1,0 +1,38 @@
+{{ $catalog := index .Site.Data.catalogs .File.BaseFileName }}
+
+<article id="catalog-display">
+  <!-- <h2 class="f3">Catalog Name: {{ $catalog.catalog.metadata.title }}</h2> -->
+
+  <h2>メタデータ</h2>
+
+  <div class="mr-1">
+    <span class="bg-gray-200 rounded px-1">uuid</span>
+    <span>{{ $catalog.catalog.uuid }}</span>
+  </div>
+  <div class="mr-1">
+    <span class="bg-gray-200 rounded px-1">title</span>
+    <span>{{ $catalog.catalog.metadata.title }}</span>
+  </div>
+  <div class="mr-1">
+    <span class="bg-gray-200 rounded px-1">last-modified</span>
+    <span>{{ index $catalog.catalog.metadata "last-modified" }}</span>
+  </div>
+  <div class="mr-1">
+    <span class="bg-gray-200 rounded px-1">version</span>
+    <span>{{ $catalog.catalog.metadata.version }}</span>
+  </div>
+
+  <h2>コントロール</h2>
+
+  {{ if $catalog.catalog.controls }}
+    {{ range $catalog.catalog.controls }}
+      {{ partial "control.html" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $catalog.catalog.groups }}
+    {{ range $catalog.catalog.groups }}
+      {{ partial "group.html" . }}
+    {{ end }}
+  {{ end }}
+</article>

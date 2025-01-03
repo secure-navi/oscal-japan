@@ -1,0 +1,14 @@
+<div class="m-2 px-2">
+  <span class="bg-blue-600 rounded text-white text-sm px-1 py-1">{{ .name }}</span>
+  <div style="border-left: 2px solid #ccc">
+    {{ if .prose }}
+      <p class="px-2" style="margin: 0;">{{ replace .prose "\n" "<br />" | safeHTML }}</p>
+    {{ end }}
+
+    {{ if .parts }}
+      {{ range .parts }}
+        {{ partial "part.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

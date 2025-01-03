@@ -1,0 +1,7 @@
+[build.environment]
+HUGO_VERSION = "0.137.1"
+TZ = "Asia/Tokyo"
+
+[build]
+publish = "public"
+command = "npm run build"

@@ -1,0 +1,411 @@
+{
+  "catalog": {
+    "uuid": "b58d4cc4-6587-1116-1522-46de3d1fd7eb",
+    "metadata": {
+      "title": "JIS Q 27001（本文省略版）",
+      "last-modified": "2025-01-02T16:56:32.00000+09:00",
+      "version": "2023",
+      "oscal-version": "1.1.3",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Creator"
+        },
+        {
+          "id": "contact",
+          "title": "Contact"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "e193c25d-04ec-9d41-8ae4-5799b7171a87",
+          "type": "organization",
+          "name": "SecureNavi Inc.",
+          "email-addresses": []
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "e193c25d-04ec-9d41-8ae4-5799b7171a87"
+          ]
+        },
+        {
+          "role-id": "contact",
+          "party-uuids": [
+            "e193c25d-04ec-9d41-8ae4-5799b7171a87"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "4",
+        "title": "組織の状況",
+        "controls": [
+          {
+            "id": "4.1",
+            "title": "組織及びその状況の理解",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，組織の目的に..."
+              }
+            ]
+          },
+          {
+            "id": "4.2",
+            "title": "利害関係者のニーズ及び期待の理解",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，次の事項を決..."
+              }
+            ]
+          },
+          {
+            "id": "4.3",
+            "title": "情報セキュリティマネジメントシステムの適用範囲の決定",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，ISMS の..."
+              }
+            ]
+          },
+          {
+            "id": "4.4",
+            "title": "情報セキュリティマネジメントシステム",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，この規格の要..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "リーダーシップ",
+        "controls": [
+          {
+            "id": "5.1",
+            "title": "リーダーシップ及びコミットメント",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "トップマネジメントは..."
+              }
+            ]
+          },
+          {
+            "id": "5.2",
+            "title": "方針",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "トップマネジメントは..."
+              }
+            ]
+          },
+          {
+            "id": "5.3",
+            "title": "組織の役割，責任及び権限",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "トップマネジメントは..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "計画策定",
+        "controls": [
+          {
+            "id": "6.1",
+            "title": "リスク及び機会に対処する活動",
+            "controls": [
+              {
+                "id": "6.1.1",
+                "title": "一般",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "ISMS の計画を策..."
+                  }
+                ]
+              },
+              {
+                "id": "6.1.2",
+                "title": "情報セキュリティリスクアセスメント",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "組織は，次の事項を行..."
+                  }
+                ]
+              },
+              {
+                "id": "6.1.3",
+                "title": "情報セキュリティリスク対応",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "組織は，次の事項を行..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "6.2",
+            "title": "情報セキュリティ目的及びそれを達成するための計画策定",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，関連する機能..."
+              }
+            ]
+          },
+          {
+            "id": "6.3",
+            "title": "変更の計画策定",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織が ISMS の..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "支援",
+        "controls": [
+          {
+            "id": "7.1",
+            "title": "資源",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，ISMS の..."
+              }
+            ]
+          },
+          {
+            "id": "7.2",
+            "title": "力量",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，次の事項を行..."
+              }
+            ]
+          },
+          {
+            "id": "7.3",
+            "title": "認識",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織の管理下で働く人..."
+              }
+            ]
+          },
+          {
+            "id": "7.4",
+            "title": "コミュニケーション",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，次の事項を含..."
+              }
+            ]
+          },
+          {
+            "id": "7.5",
+            "title": "文書化した情報",
+            "controls": [
+              {
+                "id": "7.5.1",
+                "title": "一般",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "組織の ISMS は..."
+                  }
+                ]
+              },
+              {
+                "id": "7.5.2",
+                "title": "作成及び更新",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "文書化した情報を作成..."
+                  }
+                ]
+              },
+              {
+                "id": "7.5.3",
+                "title": "文書化した情報の管理",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "ISMS 及びこの規..."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "運用",
+        "controls": [
+          {
+            "id": "8.1",
+            "title": "運用の計画策定及び管理",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，次に示す事項..."
+              }
+            ]
+          },
+          {
+            "id": "8.2",
+            "title": "情報セキュリティリスクアセスメント",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，あらかじめ定..."
+              }
+            ]
+          },
+          {
+            "id": "8.3",
+            "title": "情報セキュリティリスク対応",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，情報セキュリ..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "title": "パフォーマンス評価",
+        "controls": [
+          {
+            "id": "9.1",
+            "title": "監視，測定，分析及び評価",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，次の事項を決..."
+              }
+            ]
+          },
+          {
+            "id": "9.2",
+            "title": "内部監査",
+            "controls": [
+              {
+                "id": "9.2.1",
+                "title": "一般",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "組織は，ISMS が..."
+                  }
+                ]
+              },
+              {
+                "id": "9.2.2",
+                "title": "内部監査プログラム",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "組織は，監査プログラ..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "9.3",
+            "title": "マネジメントレビュー",
+            "controls": [
+              {
+                "id": "9.3.1",
+                "title": "一般",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "トップマネジメントは..."
+                  }
+                ]
+              },
+              {
+                "id": "9.3.2",
+                "title": "内部監査プログラム",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "マネジメントレビュー..."
+                  }
+                ]
+              },
+              {
+                "id": "9.3.3",
+                "title": "マネジメントレビューの結果",
+                "parts": [
+                  {
+                    "name": "item",
+                    "prose": "マネジメントレビュー..."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "title": "改善",
+        "controls": [
+          {
+            "id": "10.1",
+            "title": "継続的改善",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "組織は，ISMS の..."
+              }
+            ]
+          },
+          {
+            "id": "10.2",
+            "title": "不適合及び是正処置",
+            "parts": [
+              {
+                "name": "item",
+                "prose": "不適合が発生した場合..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
