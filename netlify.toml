@@ -5,3 +5,15 @@ TZ = "Asia/Tokyo"
 [build]
 publish = "public"
 command = "npm run build"
+
+[[redirects]]
+  from = "https://oscal-japan.org/*"
+  to = "https://www.oscal-japan.org/:splat"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "http://oscal-japan.org/*"
+  to = "https://www.oscal-japan.org/:splat"
+  status = 301
+  force = true
